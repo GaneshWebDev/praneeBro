@@ -85,7 +85,7 @@ body{
 }
 .slider-container {
     position: relative;
-    width: 500px;
+    width: 800px;
     height: 300px;
     margin: 15%;
     overflow: hidden;
@@ -138,22 +138,24 @@ body{
     height: 30px;
     border-radius: 5px;
 }
+.login button:hover{
+    cursor: pointer;
+}
 /* singer serive download Styling*/
 
 /* locate medical store Styling*/
 .popup-container  {
     position:fixed;
-    left: 35%;
+    left: 40%;
     transform: translateX(-50%);
     background-color: white;
     width: 500px;
     height: 300px;
-    margin: 15%;
-    overflow: hidden;
+    margin: 10%;
     top: 10%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -230,6 +232,110 @@ body{
     width: 100px;
     border: none;
     height: 30px;
+    border-radius: 5px;
+}
+/* no of standard quality drugs form styling*/
+.popup-containerl  {
+    position:fixed;
+    left: 35%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 1300px;
+    height: 300px;
+    margin: 15%;
+    overflow: hidden;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: all 0.7s;
+  }
+  .popup-containerl h1{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+ }
+ .popup-containerl form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.popup-containerl form label{
+    font-size: 15px;
+}
+.popup-containerl form input{
+    height: 20px;
+    width: 180px;
+    box-sizing: border-box;
+}
+.popup-containerl form .inputF1{
+    display: flex;
+    margin: 15px;
+}
+.popup-containerl form .inputF1 .field1{
+    margin: 10px;
+}
+.popup-containerl form .inputF2 .field2{
+    margin: 10px;
+}
+.popup-containerl form .inputF2{
+    display: flex;
+    margin: 15px;
+}
+.popup-containerl label{
+    font-size: 20px;
+}
+#search {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+#reset{
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+.close-icon {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .close-icon:hover {
+    color: orangered;
+  }
+  
+  .active.popup-containerl {
+    display: none;
+    opacity: 0;
+    top: 10%;
+  }
+/* Digital signer service styling*/
+.wd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wd .w1{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    cursor: pointer;
     border-radius: 5px;
 }
 /* header images Styling for screen size less than 600px*/
@@ -351,6 +457,7 @@ body{
     }
     .popup-container form label{
         float: left;
+        margin: 10px;
     }
     .popup-container label{
         font-size: 20px;
@@ -379,3 +486,104 @@ body{
         top: 10%;
       }
 }
+/* no of standard for screen size less than 600px*/
+.popup-containerl  {
+        position:fixed;
+        width: 250px;
+        height: 600px;
+        margin: 15%;
+        overflow: hidden;
+        left: 10px;
+        border-radius: 10px;
+        left: 30%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position:fixed;
+    left: 27%;
+    transform: translateX(-50%);
+    background-color: white;
+    margin: 15%;
+    overflow: hidden;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.7s;
+  }
+  .popup-containerl h1{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: blue;
+ }
+ .popup-containerl form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.popup-containerl form label{
+    font-size: 15px;
+    margin: 5px;
+}
+.popup-containerl form input{
+    height: 20px;
+    width: 120px;
+    box-sizing: border-box;
+}
+.popup-containerl form .inputF1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.popup-containerl form .inputF1 .field1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.popup-containerl form .inputF2 .field2{
+    margin: 12px;
+}
+.popup-containerl form .inputF2{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+.popup-containerl label{
+    font-size: 20px;
+}
+#search {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+#reset{
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+.close-icon {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .close-icon:hover {
+    color: orangered;
+  }
+  
+  .active.popup-containerl {
+    display: none;
+    opacity: 0;
+    top: 10%;
+  }
