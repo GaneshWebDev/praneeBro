@@ -436,6 +436,7 @@ body{
         width: 250px;
         height: 600px;
         margin: 15%;
+        top: 1%;
         overflow: hidden;
         left: 10px;
         border-radius: 10px;
@@ -502,7 +503,7 @@ body{
     background-color: white;
     margin: 15%;
     overflow: hidden;
-    top: 10%;
+    top: 1%;
     display: flex;
     flex-direction: column;
     padding: 10px;
