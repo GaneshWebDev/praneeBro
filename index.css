@@ -405,7 +405,7 @@ body{
         position: relative;
         width: 500px;
         height: 250px;
-        margin: 15%;
+        margin: 3%;
         overflow: hidden;
         align-items: center;
         border-radius: 10px;
@@ -415,6 +415,7 @@ body{
         display: flex;
         width: 500px;
         height: 300px;
+        align-items: center;
         transition: transform 0.4s ease-in-out;
       }
      .image-container img{
