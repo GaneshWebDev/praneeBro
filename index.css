@@ -196,7 +196,7 @@ body{
   }
   
   .active.popup-container {
-    display: none;
+    visibility: hidden;
     opacity: 0;
     top: 10%;
   }
@@ -321,7 +321,7 @@ body{
   }
   
   .active.popup-containerl {
-    display: none;
+    visibility: hidden;
     opacity: 0;
     top: 10%;
   }
@@ -593,7 +593,7 @@ body{
   }
   
   .active.popup-containerl {
-    display: none;
+    visibility: hidden;
     opacity: 0;
     top: 10%;
   }
