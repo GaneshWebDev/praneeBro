@@ -29,7 +29,11 @@ body{
 .container{
     margin:0px;
     display: flex;
+   
     width: 100vw;
+}
+.container div{
+    flex: 1;
 }
 .active.container {
     filter: blur(5px) brightness(0.7);
@@ -38,7 +42,6 @@ body{
 /* buttons styled */
 .btn-cont{
     display: flex;
-    width: 29.3%;
 }
 .btn{
     display: flex;
@@ -81,11 +84,10 @@ body{
     
 .img-cont{
     display: flex;
-    width: 41.3%;
 }
 .slider-container {
     position: relative;
-    width: 800px;
+    width: 600px;
     height: 300px;
     margin: 15%;
     overflow: hidden;
@@ -107,7 +109,6 @@ body{
  /* login styling*/
  .login-cont{
     display: flex;
-    width: 29.3%;
  }
  .login{
     display: flex;
@@ -153,7 +154,7 @@ body{
     background-color: white;
     width: 500px;
     height: 300px;
-    margin: 10%;
+    margin: 8%;
     top: 20%;
     display: flex;
     flex-direction: column;
